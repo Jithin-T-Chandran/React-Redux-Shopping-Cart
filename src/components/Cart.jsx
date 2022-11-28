@@ -6,6 +6,7 @@ import { addCart, delCart } from "../redux/action";
 const Cart = () => {
   const state = useSelector((state) => state.handleCart);
   const dispatch = useDispatch();
+  let total = 0;
 
   const handleAdd = (item) => {
     dispatch(addCart(item));
@@ -26,6 +27,8 @@ const Cart = () => {
     );
   };
   const cartItems = (product) => {
+    total += (product.qty * product.price);
+    console.log('Total',total);
     return (
       <>
         <div className="px-4 my-5 bg-light rounded-3">
