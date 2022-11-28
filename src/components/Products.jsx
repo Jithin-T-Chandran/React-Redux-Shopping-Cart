@@ -99,7 +99,6 @@ const Products = () => {
                   />
                   <div className="card-body">
                     <h4 className="card-title mb-0">
-                      {" "}
                       {product.title.substring(0, 12)}{" "}
                     </h4>
                     <p className="card-text lead fw-bold my-3">
