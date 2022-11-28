@@ -84,12 +84,29 @@ const Cart = () => {
       </>
     );
   };
+  const Total = () => {
+    return (
+      <>
+        <div className="container">
+          
+        
+                <h3>Order total: ₹{total}</h3>
+       
+          
+        </div>
+        
+      </>
+    );
+  };
 
   return (
     <div>
       {state.length === 0 && emptyCart()}
       {state.length !== 0 && state.map(cartItems)}
+      {state.length !== 0 && Total()}
       {state.length !== 0 && buttons()}
+      
+
     </div>
   );
 };
