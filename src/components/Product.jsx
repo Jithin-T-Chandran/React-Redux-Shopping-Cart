@@ -60,7 +60,7 @@ export default function Product() {
           <p className="lead fw-bolder">
             Rating {product.rating} <i className="fa fa-star"></i>{" "}
           </p>
-          <h3 className="display-6 fw-bold my-4"> $ {product.price} </h3>
+          <h3 className="display-6 fw-bold my-4"> ₹ {product.price} </h3>
           <p className="lead"> {product.description} </p>
           <button
             className="btn btn-outline-dark px-4 py-2"

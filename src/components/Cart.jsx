@@ -28,9 +28,9 @@ const Cart = () => {
   const cartItems = (product) => {
     return (
       <>
-        <div className="px-4 my-5 bg-light rounded-3 py-5">
+        <div className="px-4 my-5 bg-light rounded-3">
           <div className="container py-4">
-            <div className="row justify-content-center">
+            
               <div className="col-md-4">
                 <img
                   src={product.filename}
@@ -42,7 +42,7 @@ const Cart = () => {
               <div className="col-md-4">
                 <h3>{product.title}</h3>
                 <p className="lead fw-bold">
-                  {product.qty} X ${product.price} = $
+                  {product.qty} X ₹{product.price} = ₹
                   {product.qty * product.price}
                 </p>
                 <button
@@ -58,7 +58,7 @@ const Cart = () => {
                   <i className="fa fa-plus"></i>
                 </button>
               </div>
-            </div>
+            
           </div>
         </div>
       </>
@@ -68,15 +68,16 @@ const Cart = () => {
     return (
       <>
         <div className="container">
-          <div className="row">
+          
             <NavLink
               to="/checkout"
-              className="btn btn-outline-dark mb-5 w-25 mx-auto"
+              className="btn btn-outline-primary mb-5 w-25 mx-auto"
             >
               Proceed to Checkout
             </NavLink>
-          </div>
+          
         </div>
+        
       </>
     );
   };
