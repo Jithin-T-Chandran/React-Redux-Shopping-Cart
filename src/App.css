@@ -30,3 +30,10 @@
     align-items: center;
     margin-top: 3rem;
 }
+.card-header h5 {
+    color: rgb(26, 26, 24);
+  }
+
+  .containerSamp{
+    padding: 20px;
+  }

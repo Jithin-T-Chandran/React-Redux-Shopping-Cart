@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Skeleton from "react-loading-skeleton";
 import { addCart } from "../redux/action";
-import { NavLink } from "react-router-dom";
 import { useDispatch } from "react-redux";
 
 const Products = () => {
@@ -137,7 +136,7 @@ const Products = () => {
 
   return (
     <div>
-      <div className="container my-5 py-5">
+      <div className="containerSamp my-5 py-5">
         <div className="row">
           <div className="col-12 mb-5">
             <h1 className="display-6 fw-bolder text-center">Latest Products</h1>

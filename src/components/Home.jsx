@@ -6,7 +6,7 @@ export default function Home() {
     <div className="hero">
       <div className="card bg-dark text-white border-0">
         <img
-          src="https://repository-images.githubusercontent.com/360453445/dd51141e-1223-4f9b-ba2b-1df312fdb55c"
+          src="https://media.istockphoto.com/id/1316968335/photo/shopping-cart-full-of-food-on-yellow-background-grocery-and-food-store-concept.jpg?b=1&s=170667a&w=0&k=20&c=OaGCdnoAK5BWZp5MJeM_Knifd4ULl8sNDKvUxd1qgQw="
           className="card-img"
           alt="Background-Image"
           height="600px"
